@@ -8,6 +8,7 @@ for /d %%i in (%cd%\*) do (
     echo "%%i"
     cd "%%i"
 
+
     echo -----------------------------------------
     echo %git_command%
     git %git_command%
